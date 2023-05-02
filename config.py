@@ -4,8 +4,8 @@
 browser = ["Chrome"]
 # Enter your Linkedin password and username below. Do not commit this file after entering these credentials.
 # Linkedin credentials
-email = " "
-password = " "
+email = "communications.remote.earth@gmail.com"
+password = "H$nv77g&fvY"
 
 #PRO FEATURE - Optional! run browser in headless mode, no browser screen will be shown it will work in background.
 headless = False
@@ -23,9 +23,9 @@ easyApplyKey = ""
 # continent locations:["Europe", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Australia"]
 location = ["NorthAmerica"]
 # keywords related with your job search
-keywords = ["frontend", "react", "typescript","javascript", "vue", "python", "programming", "blockchain"]
+keywords = ["Robohelp", "writer", "editor","editorial", "copywriting", "python", "documentation", "manuals"]
 #job experience Level - ex:  ["Internship", "Entry level" , "Associate" , "Mid-Senior level" , "Director" , "Executive"]
-experienceLevels = [ "Entry level" ]
+experienceLevels = [ "Senior level" ]
 #job posted date - ex: ["Any Time", "Past Month" , "Past Week" , "Past 24 hours"] - select only one
 datePosted = ["Past Week"]
 #job type - ex:  ["Full-time", "Part-time" , "Contract" , "Temporary", "Volunteer", "Intership", "Other"]
