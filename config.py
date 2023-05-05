@@ -11,35 +11,39 @@ password = "H$nv77g&fvY"
 headless = False
 #PRO FEATURE - Optional! If you left above credentials fields empty. For Firefox or Chrome enter profile dir to run the bot to prevent logging in your account each time
 # get Firefox profile path by typing following url: about:profiles
-firefoxProfileRootDir = r"/home/ongun/snap/firefox/common/.mozilla/firefox/pz0eh58h.Linkedin_bot"
+# firefoxProfileRootDir = r"/home/ongun/snap/firefox/common/.mozilla/firefox/pz0eh58h.Linkedin_bot"
+firefoxProfileRootDir = r"C:\Users\markt\AppData\Roaming\Mozilla\Firefox\Profiles\vnxuq4d5.default.Linkedin_bot"
+
+
 # get Chrome profile path by typing following url: chrome://version/
-chromeProfilePath = r"/home/ongun/.config/google-chrome/Profile 3"
+#  chromeProfilePath = r"/home/ongun/.config/google-chrome/Profile 3"
+chromeProfilePath = r"C:\Users\markt\AppData\Local\Google\Chrome\User Data\Profile 1"
 
 # These settings are for running Linkedin job apply bot
 # Paaste your easyApply email and key below
-easyApplyEmail = ""
-easyApplyKey = ""
+easyApplyEmail = "communications.remote.earth@gmail.com"
+easyApplyKey = "K-$2b$05$Byl59V8c3619-495"
 # location you want to search the jobs - ex : ["Poland", "Singapore", "New York City Metropolitan Area", "Monroe County"]
 # continent locations:["Europe", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Australia"]
-location = ["NorthAmerica"]
+location = ["NorthAmerica", "SouthAmerica", "Asia", "Europe", "Remote"]
 # keywords related with your job search
-keywords = ["Robohelp", "writer", "editor","editorial", "copywriting", "python", "documentation", "manuals"]
+keywords = ["remote", "Robohelp", "writer", "content manager", "content developer", "content manager", "documentation manager", "editor","editorial", "spanish", "copywriting", "documentation", "manuals"]
 #job experience Level - ex:  ["Internship", "Entry level" , "Associate" , "Mid-Senior level" , "Director" , "Executive"]
-experienceLevels = [ "Senior level" ]
+experienceLevels = [ "Senior level", "Associate", "Mid-Senior Level", "Director" ]
 #job posted date - ex: ["Any Time", "Past Month" , "Past Week" , "Past 24 hours"] - select only one
 datePosted = ["Past Week"]
 #job type - ex:  ["Full-time", "Part-time" , "Contract" , "Temporary", "Volunteer", "Intership", "Other"]
 jobType = ["Full-time", "Part-time" , "Contract"]
 #remote  - ex: ["On-site" , "Remote" , "Hybrid"]
-remote = ["On-site" , "Remote" , "Hybrid"]
+remote = ["Remote"]
 #salary - ex:["$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+" ] - select only one
-salary = [ "$80,000+"]
+salary = [ "$60,000+"]
 #sort - ex:["Recent"] or ["Relevent"] - select only one
-sort = ["Recent"]
+sort = ["Relevent"]
 #Blacklist companies you dont want to apply - ex: ["Apple","Google"]
 blacklistCompanies = []
-#Blaclist keywords in title - ex:["manager", ".Net"]
-blackListTitles = []
+#Blaclist keywords in title - ex:["engineer", ".Net"]
+blackListTitles = ["engineer", "programmer", "attorney", "HVAC", "sales", "insurance", "onsite"]
 #Follow companies after sucessfull application True - yes, False - no
 followCompanies = False
 #Below settings are for linkedin bot Pro, you can purchase monthly or yearly subscription to use them from me.
@@ -90,9 +94,9 @@ AngelCoBotPassword = ""
 AngelCoEmail = ""
 AngelCoPassword = ""
 # jobTitle ex: ["Frontend Engineer", "Marketing"]
-angelCoJobTitle = ["Frontend Engineer"]
+angelCoJobTitle = ["Writer"]
 # location ex: ["Poland"]
-angelCoLocation = ["Poland"]
+angelCoLocation = ["Remote"]
 
 # These settings are for running GlobalLogic job apply bot you need to purchase GlobalLogic bot obtain bot password, paste below and then run the bot.
 GlobalLogicBotPassword = ""
@@ -117,8 +121,8 @@ GlobalLogicKeyword = ["react"]
 # Global Logic Job apply settinngs
 FirstName = "O"
 LastName = "D"
-Email = "asdsa@gmail.com"
-LinkedInProfileURL = "www.google.com"
+Email = "communications.remote.earth@gmail.com"
+LinkedInProfileURL = "https://www.linkedin.com/in/writing-and-communications/"
 Phone = "" #OPTIONAL
 Location = "" #OPTIONAL
 HowDidYouHeard = "" #OPTIONAL
