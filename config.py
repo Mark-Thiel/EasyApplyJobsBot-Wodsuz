@@ -44,12 +44,12 @@ sort = ["Relevent"]
 blacklistCompanies = []
 #Blaclist keywords in title - ex:["engineer", ".Net"]
 blackListTitles = ["engineer", "programmer", "attorney", "HVAC", "sales", "insurance", "onsite"]
-#Follow companies after sucessfull application True - yes, False - no
+#Follow companies after successfull application True - yes, False - no
 followCompanies = False
 #Below settings are for linkedin bot Pro, you can purchase monthly or yearly subscription to use them from me.
 #PRO FEATURE! - If you have multiple CV's you can choose which one you want the bot to use. (1- the first one on the list, 2 - second , etc)
 preferredCv = 1
-#PRO FEAUTRE! - Output unaswered questions into a seperate text file, will output radio box, dropdown and input field questions into seperate .yaml file
+#PRO FEATURE! - Output unaswered questions into a seperate text file, will output radio box, dropdown and input field questions into seperate .yaml file
 outputSkippedQuestions = True
 #PRO FEATURE! - Use AI to fill and answer skipped questions. Will cost 5 credits per answer cause of computational power.
 useAiAutocomplete = False
@@ -66,7 +66,7 @@ onlyApplyMaxApplications = []
 #PRO FEATURE! - Only apply jobs having more than applications - ex:["10"] will apply jobs having more than 10 applications 
 onlyApplyMinApplications = []
 #PRO FEATURE! - Only apply jobs having these keywords in the job description
-onlyApplyJobDescription = []
+onlyApplyJobDescription = ["remote"]
 #PRO FEATURE! - Do not apply the jobs having these keywords in the job description
 blockJobDescription = []
 #PRO FEATURE! - Apply companies having equal or more than employes - ex: ["100"]
@@ -84,9 +84,9 @@ listNonEasyApplyJobsUrl = False
 #PRO FEATURE! - Select radio button for unsawered questions. If the bot cannot find an answer for a radio button, it will automatically select first or second option. Default radio button answer, 1 for Yes, 2 for No. Leave empty if you dont want this option.
 selectRadioOptionForUnasweredQuestions = 1
 #PRO FEATURE! - Check yes or no to all checkbox questions (True - yes, False - no), leave empty if you dont want this option
-answerAllCheckboxes = ""
+answerAllCheckboxes = "True"
 #PRO FEAUTRE! - Output file type. Can be .txt or .csv (excel) 
-outputFileType = [".txt"]
+outputFileType = [".csv"]
 
 # These settings are for running AngelCO job apply bot you need to purchase AngelCo bot obtain bot password, paste below and then run the bot.
 AngelCoBotPassword = ""
